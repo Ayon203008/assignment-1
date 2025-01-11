@@ -1,5 +1,6 @@
 body{
     font-family: "Fira Sans", serif;
+    background-color: rgba(243, 238, 233, 0.67);
 }
 .section1{
    background: #C6E4D6;
@@ -14,6 +15,7 @@ body{
    margin-right: 160px;
    margin-left: 160px;
    margin-top: 70px;
+   margin: 0 auto;
 }
 .heading1{
 color: rgba(14, 14, 14, 0.5);
@@ -44,7 +46,7 @@ text-align: left;
 }
 .btn-primary:hover{
    border-radius: 8px;
-   background: rgb(5, 13, 75);
+   background: orangered;
    padding: 17px 34px 17px 34px;
    color: rgb(255, 255, 255);
    font-family: Fira Sans;
@@ -109,7 +111,7 @@ text-align: left;
 .section3{
    margin-left: 160px;
    margin-right: 160px;
-   margin-top: 100px;
+   margin-top: 200px;
 }
 
 .btn1{
@@ -122,6 +124,16 @@ text-align: left;
    font-size: 16px;
    font-weight: 600;
    text-align: center;}
+   .btn1:hover{
+      border-radius: 8px;
+      background: orangered;
+      border: none;
+      width: 122px;
+      height: 41px;
+      color: rgb(255, 255, 255);
+      font-size: 16px;
+      font-weight: 600;
+      text-align: center;}
 .btn2{
    border-radius: 8px;
    background-color: #09A15C;
@@ -132,6 +144,16 @@ text-align: left;
    font-size: 16px;
    font-weight: 600;
    text-align: center;}
+   .btn2:hover{
+      border-radius: 8px;
+      background-color:orangered;
+      width: 122px;
+      height: 41px;
+      border: none;
+      color:rgb(255, 255, 255) ;
+      font-size: 16px;
+      font-weight: 600;
+      text-align: center;}
 .btn3{
    border-radius: 8px;
    background-color: #FFC239;
@@ -142,6 +164,16 @@ text-align: left;
    font-weight: 600;
    text-align: center;
    border: none;}
+   .btn3:hover{
+      border-radius: 8px;
+      background-color: orangered;
+      width: 122px;
+      height: 41px;
+      color: rgb(255, 255, 255);
+      font-size: 16px;
+      font-weight: 600;
+      text-align: center;
+      border: none;}
 
    .number1{
        background: #5490F533;
@@ -179,3 +211,262 @@ text-align: left;
    font-weight: 400;
    line-height: 24px;
    }
+   .section-4{
+      margin-top:200px ;
+      margin-bottom:200px ;
+      margin-right:160px ;
+      margin-left:160px ;
+   }
+   .recent-heading{
+   color: rgb(14, 14, 14);
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 48px;
+   }
+   .recent-paragraph{
+   color: rgba(14, 14, 14, 0.7);
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   }
+
+   .satellite-heading{
+   color: rgba(14, 14, 14, 0.8);
+   font-size: 32px;
+   font-weight: 700;
+   line-height: 38px;
+   margin-bottom: 12px;
+
+   }
+.satelite-para1{  
+font-weight: 400;
+font-size: 16px;
+color: 
+#0E0E0EB3;
+margin-bottom: 12px;
+}
+.satelite-para2{  
+   font-weight: 400;
+   font-size: 16px;
+   color: 
+   #0E0E0EB3;
+   margin-bottom: 32px;
+   }
+.container-001{
+border-radius: 24px;
+background: rgb(255, 255, 255);
+border: 1px solid rgba(255, 254, 254, 0.986);
+padding: 48px;
+}
+.recent-conatiner{
+   display: flex;
+   gap: 32px;
+   margin-bottom: 25px;
+   border: 1px solid black;
+   border-radius: 24px;
+   background: rgb(255, 255, 255);
+   padding: 48px;
+}
+.container-002{
+   display: flex;
+   gap: 32px;
+   margin-bottom: 45px;
+   border: 1px solid black;
+   border-radius: 24px;
+   background: rgb(255, 255, 255);
+   padding: 48px;
+
+}
+.donate-container{
+width: 1280px;
+height: 464px;
+margin: 80px 0px;
+margin:0 auto ;
+margin-bottom: 80px;
+}
+.donate-heading{
+color: rgb(14, 14, 14);
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+text-align: center;
+margin-bottom: 24px;
+}
+.donate-paragraph{
+color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+margin-bottom: 32px;
+}
+.donate-btn{
+font-weight: 700px;
+font-size: 40px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+padding: 40px;
+margin-right: 20px;
+}
+.donate-btn:hover{
+   font-weight: 700px;
+   font-size: 40px;
+   box-sizing: border-box;
+   border: 1px solid rgba(14, 14, 14, 0.15);
+   border-radius: 16px;
+   background: orangered;
+   padding: 40px;
+   margin-right: 20px;
+   }
+.donate-btn2{
+   font-weight: 700px;
+   font-size: 40px;
+   box-sizing: border-box;
+   border: 1px solid rgba(14, 14, 14, 0.15);
+   border-radius: 16px;
+   background:#C6E4D6 ;
+   padding: 40px;
+   margin-right: 20px;
+
+     
+   }
+   .donate-btn2:hover{
+      font-weight: 700px;
+      font-size: 40px;
+      box-sizing: border-box;
+      border: 1px solid rgba(14, 14, 14, 0.15);
+      border-radius: 16px;
+      background:orangered ;
+      padding: 40px;
+      margin-right: 20px;
+   
+        
+      }
+.donation-button{
+   
+   text-align: center;
+   margin-bottom: 32px;
+}
+
+.input-class{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 32px;
+}
+.input{
+   width: 1032px;
+   height: 64px;
+   text-align: center;
+   color: rgba(14, 14, 14, 0.3);
+
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 24px;
+}
+.button{
+   display: flex;
+   justify-content: center; 
+}
+.btn-btn{
+
+   box-sizing: border-box;
+   border: 1px solid rgba(14, 14, 14, 0.1);
+   border-radius: 8px;
+   background: rgb(0, 106, 80);
+   color: rgb(255, 255, 255);
+   padding: 17px 34px 17px 34px;
+   font-size: 18px;
+   font-weight: 600;
+   line-height: 22px;
+   letter-spacing: 0%;
+   text-align: center;
+
+}
+.btn-btn:hover{
+
+   box-sizing: border-box;
+   border: 1px solid rgba(14, 14, 14, 0.1);
+   border-radius: 8px;
+   background: orangered;
+   color: rgb(255, 255, 255);
+   padding: 17px 34px 17px 34px;
+   font-size: 18px;
+   font-weight: 600;
+   line-height: 22px;
+   letter-spacing: 0%;
+   text-align: center;
+
+}
+.footer{
+   border-radius: 24px;
+
+background: rgb(198, 228, 214);
+padding: 80px 100px 80px 100px;
+width: 1280px;
+height: 395px;
+align-items: center;
+margin: 0 auto;
+text-align: center;
+
+}
+.footer-heading{
+   color: rgb(14, 14, 14);
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;;
+text-align: center;
+margin-bottom: 16px;
+}
+.footer-paragraph{
+color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+margin-bottom: 24px;
+
+}
+.last-input{
+   border-radius: 8px 0px 0px 8px;
+   
+   background: rgb(255, 255, 255);
+   width: 600px;
+   height: 55px;
+   color: rgba(14, 14, 14, 0.3);
+
+font-size: 20px;
+font-weight: 400;
+line-height: 16px;
+text-align: left;
+}
+.btn-last{
+border-radius: 0px 8px 8px 0px;
+background: rgb(0, 106, 80);
+color: rgb(255, 255, 255);
+
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+padding: 15px 30px 15px 30px;
+
+}
+.btn-last:hover{
+   border-radius: 0px 8px 8px 0px;
+   background: orangered;
+   color: rgb(255, 255, 255);
+   
+   font-size: 18px;
+   font-weight: 600;
+   line-height: 22px;
+   padding: 15px 30px 15px 30px;
+   
+   }
+
+.spam{
+ color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+text-align: center;
+}
